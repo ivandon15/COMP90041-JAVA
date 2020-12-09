@@ -1,0 +1,3 @@
+Your full name: YiFan Deng
+Your Canvas username (i.e., yourname in yourname@student.unimelb.edu.au): yifdeng
+Github repository link: https://github.com/COMP90041/assignment-1-ivandon15

@@ -1,0 +1,22 @@
+Welcome to Nim
+
+Please enter a command to continue
+
+$ 
+Please enter Player 1's name : Please enter Player 2's name : Enter upper bound : Enter initial number of stones : 
+10 stones left : * * * * * * * * * *
+Lucy's turn. Enter stones to remove : 
+7 stones left : * * * * * * *
+Alice's turn. Enter stones to remove : 
+4 stones left : * * * *
+Lucy's turn. Enter stones to remove : 
+1 stones left : *
+Alice's turn. Enter stones to remove : 
+Game Over
+Lucy wins!
+
+Do you want to play again (Y/N): Lucy won 1 game out of 1 played
+Alice won 0 game out of 1 played
+$ 
+Thank you for playing Nim
+

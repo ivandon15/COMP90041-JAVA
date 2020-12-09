@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "Test One",
+      "setup": "javac *.java",
+      "run": "java Nimsys",
+      "input": "start\r\nLucy\r\nAlice\r\n4\r\n10\r\n3\r\n3\r\n3\r\n1\r\nN\r\nexit\r\n",
+      "output": "Welcome to Nim\r\n\r\nPlease enter a command to continue\r\n\r\n$ \r\nPlease enter Player 1's name : Please enter Player 2's name : Enter upper bound : Enter initial number of stones : \r\n10 stones left : * * * * * * * * * *\r\nLucy's turn. Enter stones to remove : \r\n7 stones left : * * * * * * *\r\nAlice's turn. Enter stones to remove : \r\n4 stones left : * * * *\r\nLucy's turn. Enter stones to remove : \r\n1 stones left : *\r\nAlice's turn. Enter stones to remove : \r\nGame Over\r\nLucy wins!\r\n\r\nDo you want to play again (Y/N): Lucy won 1 game out of 1 played\r\nAlice won 0 game out of 1 played\r\n$ \r\nThank you for playing Nim\r\n",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Test Two",
+      "setup": "javac *.java",
+      "run": "java Nimsys",
+      "input": "start\r\nNate\r\nCindy\r\n5\r\n12\r\n2\r\n3\r\n4\r\n2\r\n1\r\nY\r\n4\r\n10\r\n4\r\n4\r\n2\r\nN\r\nexit\r\n",
+      "output": "Welcome to Nim\r\n\r\nPlease enter a command to continue\r\n\r\n$ \r\nPlease enter Player 1's name : Please enter Player 2's name : Enter upper bound : Enter initial number of stones : \r\n12 stones left : * * * * * * * * * * * *\r\nNate's turn. Enter stones to remove : \r\n10 stones left : * * * * * * * * * *\r\nCindy's turn. Enter stones to remove : \r\n7 stones left : * * * * * * *\r\nNate's turn. Enter stones to remove : \r\n3 stones left : * * *\r\nCindy's turn. Enter stones to remove : \r\n1 stones left : *\r\nNate's turn. Enter stones to remove : \r\nGame Over\r\nCindy wins!\r\n\r\nDo you want to play again (Y/N): Enter upper bound : Enter initial number of stones : \r\n10 stones left : * * * * * * * * * *\r\nNate's turn. Enter stones to remove : \r\n6 stones left : * * * * * *\r\nCindy's turn. Enter stones to remove : \r\n2 stones left : * *\r\nNate's turn. Enter stones to remove : \r\nGame Over\r\nCindy wins!\r\n\r\nDo you want to play again (Y/N): Nate won 0 game out of 2 played\r\nCindy won 2 games out of 2 played\r\n$ \r\nThank you for playing Nim\r\n",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}

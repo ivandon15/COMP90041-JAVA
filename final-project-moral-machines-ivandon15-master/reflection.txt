@@ -1,0 +1,27 @@
+Author: YiFan Deng
+StudentID: 1150027
+
+Part 1. How to make the decision:
+In Human, generally, my basic idea is that we always save those who are more
+capable, whether it's because they contribute more to the society(scientists
+may solve this ethical problem, doctors at the scene of the accident may give
+you first aid and so on) or from an insurance standpoint(their compensation
+must be higher than a homeless).
+In Animal, hitting a pet means you need to make a claim, so the proportion of
+a pet and not a pet is 10:1. (sounds impersonal, but these are all assumptions!)
+
+Part 2. Something surprise
+It wasn't designed with the idea that the program had to save the user, but it
+gave the user a lot of weight (I thought the survive ratio of user is the highest).
+However, after auditing five times 100-run scenarios, the survive ratios of user
+are around 0.6. What is more, survival rates under whether it is legal to cross
+are similar, contrary to what I first thought, people who cross legally have a
+better chance of survival.
+
+Part 3. Consequence
+Even if the programmer does a very precise job of assigning weights, with a lot
+of data testing, results contrary to the initial idea may occur. This is why the
+design of the algorithm is so important. In moral machine, the algorithm must be
+polished before it can be used.
+
+(235 words in total)
